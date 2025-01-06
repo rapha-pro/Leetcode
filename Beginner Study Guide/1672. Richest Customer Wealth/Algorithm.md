@@ -17,10 +17,10 @@ _Example 1_:
 2nd customer has wealth = 3 + 2 + 1 = 6\
 Both customers are considered the richest with a wealth of 6 each, so return 6.
 
-<br /><br />
+<br />
 
 ## Steps to Solve:
-- use a `sum function` like the `runningSum` in `#1480`
+- use a `Sum function` like the `runningSum` in `#1480`
 - loop through the `accounts array`, and send each customer's banks
   (each array of account array) to the function
 - get the return output from the function and compare against the current max

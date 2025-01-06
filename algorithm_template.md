@@ -5,10 +5,8 @@
 ## Problem
 
 
-_Example 1_:
+<ins>_Example 1_</ins>:
 
-
-<br /><br />
 
 ## Steps to Solve:
 
