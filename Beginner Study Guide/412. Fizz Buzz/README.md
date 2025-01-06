@@ -18,13 +18,14 @@ Output: ["1","2","Fizz","4","Buzz"]
 ## Steps to Solve:
 - Initialize an array
 - Iterate starting from `1` to `n` inclusive
-- For each iteration, initialize an `empty string`
-- If the current number is divisible by `3`, `append Fizz` to the string
-- Likewise, if it's divisible by `5`, `append Buzz` to the string
-- If none of the two options above are applicable, convert the number
-  to a `String` data type and append it to the string
-- Append the string to the array
-- Reset the string and repeat
+- For each iteration:
+  - initialize an `empty string`
+  - If the current number is divisible by `3`, `append Fizz` to the string
+  - Likewise, if it's divisible by `5`, `append Buzz` to the string
+  - If none of the two options above are applicable, convert the number
+    to a `String` data type and append it to the string
+  - Append the string to the array
+  - Reset the string and repeat
 
 
 ## Complexity
