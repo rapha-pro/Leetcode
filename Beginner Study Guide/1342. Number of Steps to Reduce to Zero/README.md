@@ -46,13 +46,6 @@ Step 6) 1 is odd; subtract 1 and obtain 0.
 - *Space*: __O(1)__
   - No extra space used!
 
-
-
-
-
-
-
-
-
+  
 
 [Link]: https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/

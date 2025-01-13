@@ -4,16 +4,10 @@ class Solution {
 
         while(num > 0) {
             boolean isEven = (num & 1) == 0;
-
-            if(isEven) {
-                num >>= 1;
-            } else {
-                num--;
-            }
+            num = isEven ? num >>= 1 : num ^ 1;
             numOfSteps++;
         }
 
         return numOfSteps;
-
     }
 }
