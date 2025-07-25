@@ -22,7 +22,7 @@ Inside each folder:
 - LeetCode link and problem number
 - Difficulty level
 - Example section
-- Steps to solve
+- Elaborated Steps solution
 - Complexity analysis (Time & Space)
 
 
