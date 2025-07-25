@@ -17,7 +17,7 @@ Inside each folder:
 - `code.[py/java]`: Coding implementation of the solution
 - `README.md`: Problem description and complexity analysis
 
-## Inside each Problem's README
+### Inside each problem's README
 **Each README.md includes**:
 - LeetCode link and problem number
 - Difficulty level
