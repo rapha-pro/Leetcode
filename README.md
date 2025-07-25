@@ -18,7 +18,7 @@ Inside each folder:
 - `README.md`: Problem description and complexity analysis
 
 ### Inside each problem's README
-**Each README.md includes**:
+**Each readme includes**:
 - LeetCode link and problem number
 - Difficulty level
 - Example section
