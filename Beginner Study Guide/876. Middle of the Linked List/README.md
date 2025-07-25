@@ -14,15 +14,18 @@ If there are two middle nodes, return the second middle node.
 **Explanation**: The middle node of the list is node 3.
 
 ## Steps to Solve:
-
+- Initialize two pointers at the beginning of the list.\
+  The first pointer moves faster than the second one (middle pointer)
+- We can notice that, for every two moves of the faster pointer, 
+  middle pointer moves by one node to track the middle
 
 
 ## Complexity
 
 - *Time*: __O(n)__
-  - 
+  - Linear since with have to loop through all the linked-list
 - *Space*: __O(1)__
-  - 
+  - No extra memory proportional to our input is used
 
 
     
