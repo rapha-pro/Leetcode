@@ -15,9 +15,9 @@ Each problem lives in a folder named like so: `###. Problem Title`
 Inside each folder:
 
 - `code.[py/java]`: Coding implementation of the solution
-- `README.md`: Boilerplate for problem description and complexity analysis
+- `README.md`: Problem description and complexity analysis
 
-## README Boilerplate
+## Inside each Problem's README
 **Each README.md includes**:
 - LeetCode link and problem number
 - Difficulty level
