@@ -29,7 +29,7 @@ Inside each folder:
 
 
 ## Creating a new problem directory:
-To quickly scaffold a new problem directory with boilerplate files, use the `create_problem.py` automation script:
+To quickly scaffold a new problem directory with boilerplate files, use the `create_leetcode_problem.py` automation script:
 
 ```python
 python create_leetcode_problem.py <problem_name> <leetcode_problem_link>
