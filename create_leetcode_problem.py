@@ -1,7 +1,7 @@
 import os
 import sys
 
-TARGET_ROOT = "Beginner Study Guide"
+TARGET_ROOT = "Blind 75"
 TEMPLATE_PATH = "algorithm_template.md"
 
 
