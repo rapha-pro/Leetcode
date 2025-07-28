@@ -49,10 +49,11 @@ Each letter in `magazine` can only be used once in `ransomNote`.
      - Because the largest count can be as big as `n` in the _worst case_, storing this count requires about `log₂ n` bits
     
 
-
+- ### [Alternative Solution2 using array][alternative_sol]
 
 
 
 
 
 [Link]: https://leetcode.com/problems/ransom-note/description/
+[alternative_sol]: https://leetcode.com/problems/ransom-note/solutions/1671552/1ms-100-easy-explanation-java-solution
