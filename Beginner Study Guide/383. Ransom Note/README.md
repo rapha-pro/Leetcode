@@ -12,7 +12,7 @@ Each letter in `magazine` can only be used once in `ransomNote`.
 **Input**: ransomNote = "aa", magazine = "aab"\
 **Output**: true
 ## Steps to Solve:
-- Check if `ransomNote` and `magazine` have the same length
+- Check if `magazine` have a shorter length than `ransomNote`
 - Loop through the letters of `magazine`. For each letter, track its count and store it in a hashmap\
   (`key`: characters, `Values`: frequency)
 - Loop through the letters of `ransomNote`, check if it is contained in the hashmap.\
