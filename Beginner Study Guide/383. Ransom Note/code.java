@@ -19,7 +19,7 @@ class Solution {
 }
 
 
-// see alternative solution for explanation
+// see alternative solution link for explanation
 class Solution2 {
     public boolean canConstruct(String ransomNote, String magazine) {
 		if (ransomNote.length() > magazine.length()) return false;
