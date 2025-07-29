@@ -5,7 +5,9 @@
 ![LeetCode](https://img.shields.io/badge/solved-LeetCode-yellow?logo=leetcode&logoColor=white)
 
 
-Most problems would be solved in sequence of the structure provided by the [Leetcode Beginner's study guide](https://leetcode.com/explore/learn/card/the-leetcode-beginners-guide/692/challenge-problems/4421/)
+Most problems would be solved in the sequence of the structure provided by 
+[Blind 75](https://leetcode.com/problem-list/oizxjoit/), 
+[Leetcode Beginner's study guide](https://leetcode.com/explore/learn/card/the-leetcode-beginners-guide/692/challenge-problems/4421/)
 <br />
  _`Java`_,  _`Python`_
 
