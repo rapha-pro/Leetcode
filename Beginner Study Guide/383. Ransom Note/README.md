@@ -49,7 +49,7 @@ Each letter in `magazine` can only be used once in `ransomNote`.
      - Because the largest count can be as big as `n` in the _worst case_, storing this count requires about `log₂ n` bits
     
 
-- ### [Alternative Solution2 using array][alternative_sol]
+- ### [Alternative Solution2 using a HashTable array][alternative_sol]
 
 
 
