@@ -17,9 +17,10 @@ and return `false` if every element is distinct.
 The element 1 occurs at the indices 0 and 3.
 
 ## Steps to Solve:
-- Create a HashSet
-- As we loop through the array, add the element in the hashset
-- if we encounter, a duplicate, return false
+- Create an integer set
+- As we loop through the array, first check if the current element is already contained in the set
+- Return `true` if contained, else add the element to the set.
+- If we successfully exit the loop, return `false`.
 
 ## Complexity
 
