@@ -14,7 +14,7 @@ and return `false` if every element is distinct.
 **Output**: true
 
 **Explanation**:
-The element 1 occurs at the indices 0 and 3.
+Element 1 occurs at the indices 0 and 3.
 
 ## Steps to Solve:
 - Create an integer set
@@ -25,9 +25,9 @@ The element 1 occurs at the indices 0 and 3.
 ## Complexity
 
 - *Time*: __O(n)__
-  - loop through the entire array once
+  - Loop through the entire array once
 - *Space*: __O(n)__
-  - At worst case (all unique elements), we will need another datastructure as large as the\
+  - In the worst case (all unique elements), we will need another data structure as large as the\
     original array
 
 
