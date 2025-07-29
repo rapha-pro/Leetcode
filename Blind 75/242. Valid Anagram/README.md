@@ -39,4 +39,4 @@ Given two strings s and t, return true if t is an anagram of s, and false otherw
 
 
 [Link]: https://leetcode.com/problems/valid-anagram/description/
-[related_question]: (/Beginner Study Guide/383. Ransom Note)
+[related_question]: /Beginner%20Study%20Guide/383.%20Ransom%20Note
