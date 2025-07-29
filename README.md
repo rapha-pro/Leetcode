@@ -39,9 +39,12 @@ python create_leetcode_problem.py "412. FizzBuzz" https://leetcode.com/problems/
 ```
 
 ```mermaid
-graph TD;
-  A[Start] --> B{Is it coded?};
-  B -- Yes --> C[Test it!];
-  B -- No --> D[Write the code];
-  C --> E[Deploy];
-  D --> C;
+graph TD
+    A[Understand the Problem] --> B[Choose Optimal Data Struct]
+    B --> C[Design Algorithm]
+    C --> D[Write Initial Solution]
+    D --> E{Passes Basic Tests?}
+    E -- No --> F[Optimize/Debug]
+    E -- Yes --> G[Time & Space Complexity Analysis]
+    F --> D
+    G --> H[Submit & Verify]
