@@ -27,8 +27,7 @@ Element 1 occurs at the indices 0 and 3.
 - *Time*: __O(n)__
   - Loop through the entire array once
 - *Space*: __O(n)__
-  - In the worst case (all unique elements), we will need another data structure as large as the\
-    original array
+  - In the worst case (all unique elements), we will need another data structure as large as the input array
 
 
     
