@@ -15,7 +15,7 @@ def create_problem_directory(name, link):
     os.makedirs(dir_path, exist_ok=True)
 
     # Create code.py
-    open(os.path.join(dir_path, "code.java"), "w").close()
+    open(os.path.join(dir_path, "code.py"), "w").close()
 
     # Create README.md with replaced link and problem name
     template = load_template().replace("[Leetcode #]", f"[Leetcode {name}]")

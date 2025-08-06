@@ -1,6 +1,6 @@
 # [Leetcode 49. Group Anagrams][Link]
 
-###### easy
+###### Medium
 
 #### Related to [Leetcode 242. Valid Anagram][related_question]
 
