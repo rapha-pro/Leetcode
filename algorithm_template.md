@@ -14,9 +14,9 @@
 
 ## Complexity
 
-- *Time*: __O(n)__
+- ### Time: __O(n)__
   - 
-- *Space*: __O(n)__
+- ### Space: __O(n)__
   - 
 
 
