@@ -28,9 +28,9 @@ You can return the answer in any order.
 - For each element at its index (e.g: a, has index = 0, b = 1, c = 2, etc..), update its count as seen in `string 's'`
 - Use this array (converted to a string) as the key for the dictionary, and its values would be a 
   list of all anagrams of the `current string 's'`
-- i.e: For each string, after creating its array frequency, check if exists already in the dictionary, \
-  and add the current string as array `value` that is paired with the current `key`, else insert this key-value pair \
-  to the dict
+- i.e: For each string, after creating its array frequency, check if that array exists already in the dictionary, \
+  and add the current string in the array `value` that is paired with the current `key`, else insert this key-value pair \
+  to the dict. The value here is an array containing all valid anagrams of a specific array frequency.
 
 ## Complexity
 
@@ -40,9 +40,9 @@ You can return the answer in any order.
 - ### Time: __O(m * n)__
   - `O(m * n * 26)`. For every string in `strs (m)`, we loop through each letters of the string (`n`), and create
     an array of size `26`.
-  - since for any input, the string of the array is constant (26), it is not included in the time complexity
+  - since for any input, the array of the string is constant (26), it is not included in the time complexity
 - ### Space: __O(m * n)__
-  - O(m * n) space complexity represents the total number of characters stored across all input strings in the worst case
+  - O(m * n) space complexity represents the total `number of characters stored` across *all input strings* in the worst case
   - In the worst case, we will need a dictionary with `m` arrays, each of length `26` = `26m`
   - But, the map itself holds n entries → `O(m) keys + O(m) lists`.
   - `m` strings, each of length up to `n`, stored in lists.
@@ -50,7 +50,7 @@ You can return the answer in any order.
     - Key: `[1,0,1,...]` → ["eat", "tea"]
     - Key: `[1,0,0,...]` → ["tan", "nat"]
     - 3 keys → O(3)
-    - 6 strings stored → `O(6 * 3) = O(18)` characters → `O(m * n)`
+    - `6` strings stored of worst length `3` → `O(6 * 3) = O(18)` characters → `O(m * n)`
 
 
 
