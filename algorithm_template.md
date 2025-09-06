@@ -7,11 +7,11 @@
 
 <ins>_Example 1_</ins>:
 
-
+---
 ## Steps to Solve:
 
 
-
+---
 ## Complexity
 
 - ### Time: __O(n)__
