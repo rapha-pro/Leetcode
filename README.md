@@ -42,7 +42,7 @@ python create_leetcode_problem.py "412. FizzBuzz" https://leetcode.com/problems/
 
 ```mermaid
 graph TD
-    A[Understand the Problem] --> B[Think of a solution (without code) like a human would]
+    A[Understand the Problem] --> B[Think of a solution without code, like a normal person would]
     B --> C[Translate solution into Pseudocode]
     C --> D[Design algorithm and choose optimal Data Struct]
     D --> E{Passes Basic Tests?}
