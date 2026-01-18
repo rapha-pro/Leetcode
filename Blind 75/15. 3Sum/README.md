@@ -1,7 +1,7 @@
 # [Leetcode 15. 3Sum][Link]
 
 ###### Medium  
-#### Related Problem
+#### Related Problems
 [Leetcode 1. Two Sum][related_1], \
 [Leetcode 167. Two Sum II][related_2]
 
