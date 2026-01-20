@@ -1,5 +1,6 @@
 import random
 from typing import Optional, List
+from collections import deque
 
 class TreeNode:
     def __init__(self, val: int = 0, left: Optional['TreeNode'] = None, right: Optional['TreeNode'] = None):
@@ -52,6 +53,27 @@ class TreeNode:
         dfs(root)
         return visited
 
+    @classmethod
+    def level_order_traversal(cls, root: 'TreeNode') -> List[int]:
+        if not root:
+            return []
+
+        nodes_to_visit = deque([root])
+        result = []
+
+        while nodes_to_visit:
+            level = []
+            for _ in range(len(nodes_to_visit)):
+                current_node = nodes_to_visit.popleft()
+                level.append(current_node.val)
+
+                if current_node.left: nodes_to_visit.append(current_node.left)
+                if current_node.right: nodes_to_visit.append(current_node.right)
+
+            result.append(level)
+
+        return result
+
 
     # Helper method to insert a node into a BST
     def insert_bst(self, val: int):
@@ -84,5 +106,6 @@ print("Generated values (in order of insertion):", random_values)
 print("Root of BST:", root_bst.val)
 print("Preorder Traversal of BST:", TreeNode.preorder_traversal(root_bst))
 print("Inorder Traversal of BST:", TreeNode.inorder_traversal(root_bst))
+print("Inorder Traversal of BST:", TreeNode.level_order_traversal(root_bst))
 
 
