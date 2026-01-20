@@ -1,7 +1,7 @@
 import os
 import sys
 
-TARGET_ROOT = "Blind 75"
+TARGET_ROOT =  sys.argv[1] or "Blind 75"
 TEMPLATE_PATH = "algorithm_template.md"
 
 
@@ -27,9 +27,14 @@ def create_problem_directory(name, link):
 
 
 def main():
-    if len(sys.argv) >= 2:
+    problem_name, link = "", ""
+
+    if len(sys.argv) == 4:
+        problem_name = sys.argv[2]
+        link = sys.argv[3]
+    elif len(sys.argv) == 3:
         problem_name = sys.argv[1]
-        link = sys.argv[2] if len(sys.argv) >= 3 else "https://leetcode.com/problems/"
+        link = sys.argv[2]
     else:
         problem_name = input("Enter problem name (e.g., '412. Fizzbuzz'): ").strip()
         link = input("Enter Leetcode link (or press Enter for default): ").strip() or "https://leetcode.com/problems/"
