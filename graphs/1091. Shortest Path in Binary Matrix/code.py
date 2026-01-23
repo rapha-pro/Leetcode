@@ -38,7 +38,7 @@ class Solution:
                 nr, nc = r + dr, c + dc
 
                 # check if new row and col doesn't lead us out of bounds
-                # and is a valid neighbout
+                # and is a valid neighbour
                 if (0 <= nr < N) and (0 <= nc < N) and grid[nr][nc] == 0:
                     # since we're at the cell, mark it as visited
                     grid[nr][nc] = 1

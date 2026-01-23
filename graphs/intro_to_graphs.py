@@ -90,7 +90,7 @@ class TreeNode:
 
 
 
-# MAIN
+# MAIN ---
 num_nodes_bst = 7
 random_values = random.sample(range(1, 31), num_nodes_bst) # Get unique numbers
 
