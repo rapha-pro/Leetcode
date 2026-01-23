@@ -1,0 +1,31 @@
+# [Leetcode 994. Rotting Oranges][Link]
+
+###### easy
+
+## Problem
+
+
+<ins>_Example 1_</ins>:
+
+---
+## Steps to Solve:
+
+
+---
+## Complexity
+
+- ### Time: __O(n)__
+  - 
+- ### Space: __O(n)__
+  - 
+
+
+    
+
+
+
+
+
+
+
+[Link]: https://leetcode.com/problems/rotting-oranges/
