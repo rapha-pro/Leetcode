@@ -43,7 +43,7 @@ class Solution:
                     # since we're at the cell, mark it as visited
                     grid[nr][nc] = 1
 
-                    # append him to the queue, so we'll check its neighbours
+                    # append the cell to the queue (neighbours), so we'll check its neighbours later
                     neighbours.append((nr, nc, length + 1))
 
         return -1
