@@ -1,17 +1,18 @@
 # [Leetcode Number of Islands][Link]
 
-###### medium
+###### Medium
 
 ## Problem
+Given an `m x n` 2D grid where:
+- `'1'` represents land,
+- `'0'` represents water,
 
+return the number of **islands**.
+
+An island is surrounded by water and is formed by connecting adjacent lands **horizontally or vertically**.  
+You may assume all four edges of the grid are surrounded by water.
 
 <ins>_Example 1_</ins>:
-
----
-## Steps to Solve:
-This is the **single most important graph pattern** to learn. If you master the logic behind **Number of Islands**, you effectively solve ~10 other popular LeetCode questions immediately (like *Max Area of Island*, *Flood Fill*, *Surrounded Regions*).
-
-Here is the concept without code first, so you understand the "physics" of the problem.
 
 ### The Concept: "The Helicopter and the Sinking Island"
 
@@ -95,23 +96,18 @@ Now that you know this "Loop + DFS" pattern:
 2.  **Count Connected Components:** Same logic, just a graph instead of a grid.
 3.  **Flood Fill:** Same logic, but instead of sinking to `0`, you change color to `target_color`.
 
-Do you feel comfortable with this logic? If so, I want you to try writing just the `dfs` function part of this code in your head (or scratchpad) right now.
 
 ---
 ## Complexity
+- `m`: number of rows in the grid  
+- `n`: number of columns in the grid  
 
-- ### Time: __O(n)__
-  - 
-- ### Space: __O(n)__
-  - 
+### Time: __O(m × n)__
+- Every cell is visited at most once.
+- DFS only explores each land cell a single time.
 
+### Space: __O(m × n)__
+- In the worst case, the recursion stack and the visited set can store all grid cells.
+- This happens when the entire grid is land.
 
-    
-
-
-
-
-
-
-
-[Link]: https://leetcode.com/problems/number-of-islands/
+[Link]: https://leetcode.com/problems/number-of-islands/description/
